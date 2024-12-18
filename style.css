@@ -44,9 +44,9 @@ section {
 }
 
 body {
-  overflow-x: hidden;
   background-color: #f3e5e5;
   line-height: 1;
+  overflow-x: hidden;
   /* overflow-y: hidden; */
 }
 
@@ -89,6 +89,8 @@ table {
     height: 100vh; /* adapte à la hauteur de la fenêtre */
     /* flex-shrink: 0; */
 }
+
+/* CSS */
 
 
 .section1 {
@@ -331,7 +333,7 @@ table {
 }
 /* section 3  */
 
-.section3{
+.charts{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -344,54 +346,108 @@ gap: 2rem;
   flex-shrink: 0;
 }
 
-.section3__content{
+.chart__content{
   display: flex;
 justify-content: center;
 align-items: center;
-padding: 2rem;
-
+  flex-direction: column;
+padding-top:3rem;
+padding-bottom: 3rem;
 
 border: 3px solid #000;
-border-radius: 5.625rem;
-gap: 10rem;
+border-radius: 5.65rem;
+
 }
+.chart__top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+margin-right: 2rem;
+  gap: 2rem;
+}
+.chart__bot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 45rem;
+}
+
+.chart__legende{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  font-family: "ABeeZee";
+  font-size: 1.3rem;
+  text-align: justify;
+  
+  gap: 1rem;
+}
+/* Debut Section Separator Map */
+.section__map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60rem;
+  border: solid 3px yellow;
+}
+.line__separator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.icon__separator{
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+}
+/* Fin Separator Map */
+
+/* section 5 */
+
+
 /* section cinéma */
 
 .section-cinema1{
   display: flex;
-    padding: 30rem;
   align-self: center;
+    padding: 30rem;
 }
 
 .cinema-separator{
+  width: 30rem;
   position: absolute;
   top: 0%;
-  width: 30rem;
   margin-left: -40rem;
 }
 
 .cinema-camera{
+  width: 20rem;
   position: absolute;
   bottom: 0%;
-  width: 20rem;
   margin-left: 30rem;
 }
 
 .camera-roll{
+  width: 20rem;
   position: absolute;
   top: 5%;
-  width: 20rem;
   margin-left: 22rem;
 }
 
 .cinema-h2{
     width: 25rem;
+    text-align: center;
     font-family: "Bebas Neue";
     font-size: 5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
 }
 
 .cinema-intro__h2-1{
@@ -414,26 +470,26 @@ gap: 10rem;
 
 .cinema-intro{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     width: 40rem;
-    padding-top: 5rem;
+    gap: 6rem;
     padding-right: 5rem;
     padding-left: 5rem;
-    gap: 6rem;
+    padding-top: 5rem;
 }
 
 .cinema-intro__firstline{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     font-family: "ABeeZee";
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: right;
-    gap: 2rem;
     img {
         width: 7rem;
     }
@@ -443,20 +499,20 @@ gap: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     font-family: "ABeeZee";
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: left;
-    gap: 2rem;
 }
 
 .itineraire-icon2{
   position: absolute;
   bottom: -17%;
-  width: 18rem;
   margin-left: 55rem;
+  width: 18rem;
 }
 
 .cinema-intro__secondline--percentage{
@@ -482,8 +538,8 @@ gap: 10rem;
 .card__caption-container{
   width: 20rem;
   .card__caption1{
+    font-size: 2rem;
     margin-bottom: .5rem;
-    font-size: 1.5rem;
   }
   .card__caption2{
     list-style: inside;
@@ -492,6 +548,7 @@ gap: 10rem;
 
 .first-element{
   display: flex;
+  gap: 2rem;
   padding-top: 2rem;
   font-family: "ABeeZee";
   font-size: 1.25rem;
@@ -499,21 +556,20 @@ gap: 10rem;
   font-weight: 400;
   line-height: normal;
   text-align: left;
-  gap: 2rem;
 }
 
 .card-top{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: fit-content;
     height: 25rem;
     margin-top: -5rem;
-    padding-right: 4rem;
     padding-left: 4rem;
-    background: linear-gradient(232deg, #E7D0D0 6.58%, #A29DFA 97.94%);
+    padding-right: 4rem;
     border-radius: 0px 0px 109.231px 109.231px;
+    background: linear-gradient(232deg, #E7D0D0 6.58%, #A29DFA 97.94%);
     .card-top__img{
       width: 10rem;
       margin-bottom: -12rem;
@@ -540,17 +596,17 @@ gap: 10rem;
 
 .second-element{
   display: flex;
+  gap: 2rem;
   font-family: "ABeeZee";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-align: left;
-  gap: 2rem;
   .card__caption-container{
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
+    justify-content: flex-end;
     margin-bottom: 4rem;
     
   }
@@ -558,16 +614,16 @@ gap: 10rem;
 
 .card-bottom{
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: fit-content;
   height: 22rem;
   margin-top: -5rem;
-  padding-right: 4rem;
   padding-left: 4rem;
-  background: linear-gradient(232deg, #E7D0D0 6.58%, #A29DFA 97.94%);
+  padding-right: 4rem;
   border-radius: 109.231px 109.231px 0px 0px ;
+  background: linear-gradient(232deg, #E7D0D0 6.58%, #A29DFA 97.94%);
 
 }
 
@@ -579,6 +635,7 @@ gap: 10rem;
 
 .third-element{
   display: flex;
+  gap: 2rem;
   padding-top: 2rem;
   font-family: "ABeeZee";
   font-size: 1.25rem;
@@ -586,7 +643,6 @@ gap: 10rem;
   font-weight: 400;
   line-height: normal;
   text-align: left;
-  gap: 2rem;
   .card-top__img{
     width: 12rem;
   }
@@ -594,30 +650,271 @@ gap: 10rem;
 
 .cinema-percentages2{
   display: flex;
-  justify-content: flex-end;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
-/* .cinema-percentages3{
-   margin-left: 10rem;
-} */
+
+/* Section livres */
 
 .bookmark{
+  width: 15rem;
   position: absolute;
   top: 0%;
-  width: 15rem;
   margin-left: -10rem;
 }
 
 .bookshelf{
+  width: 20rem;
   position: absolute;
   bottom: 0%;
-  width: 20rem;
   margin-left: 30rem;
 }
 
-.blacksquare{
+
+.books-percentages{
+  display: flex;
+  gap: 10rem;
+}
+
+.books-percentages__column1{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.books-percentages__column2,
+.books-percentages__column3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.books-percentages__subcolumn1{
+  display: flex;
+  flex-direction: column;
   width: 30rem;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 100%;
+  padding-top: 5rem;
+  padding-right: 2rem;
+}
+
+.books-percentages__subcolumn3{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 100%;
+  padding-bottom: 15rem;
+  padding-left: 2rem;
+}
+
+.books-percentages__subcolumn1--percentage1{
+  text-shadow: -3px 4px 0px #000;
+  color: #000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #bfbfbf;
+}
+
+.books-percentages__subcolumn1--percentage2{
+  font-family: "ABeeZee";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  letter-spacing: 0.1rem;
+}
+
+.books-percentages__subcolumn3--percentage1{
+  text-shadow: -3px 4px 0px #000;
+  color: #000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #bfbfbf;
+}
+
+.books-percentages__subcolumn3--percentage2{
+  font-family: "ABeeZee";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+.books-percentage__bottom-element{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  font-family: "ABeeZee";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.books-percentage__top-element{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  font-family: "ABeeZee";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  .card__caption1{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.books-percentage__mid-element--paragraph{
+  margin-left: 40%;
+  text-shadow: -3px 4px 0px #000;
+  color: #000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #bfbfbf;
+}
+
+.card__caption-left{
+  font-family: "ABeeZee";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+}
+
+.books-percentages2{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80rem;
+  padding: 3rem;
+  font-family: "ABeeZee";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.books-percentages2__graph2-container{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 30rem;
+}
+
+.books-percentages2__graph1-container{
+  display: flex;
+}
+
+.books-percentages2__graph1{
+  width: 25rem;
+}
+
+.books-percentages2__graph2{
+  width: 25rem;
+}
+
+.pie2-caption1,
+.pie1-caption1{
+  max-width: 25rem;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.pie1-caption2,
+.pie2-caption2{
+  text-shadow: -3px 4px 0px #000;
+  color: #000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #bfbfbf;
+}
+
+.pie1-caption1{
+  padding-top: 2rem;
+}
+
+.pie2-caption1{
+  padding-bottom: 6rem;
+}
+
+
+.pie1-caption2{
+  margin-left: -37rem;
+  margin-top: 4rem;
+}
+
+.pie2-caption2{
+  margin-left: -35rem;
+  margin-bottom: 3rem;
+}
+
+
+.books-percentages2__mid-text{
+  position: absolute;
+  top: 46%;
+  right: 60%;
+  text-shadow: -3px 4px 0px #000;
+  color: #000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #bfbfbf;
+}
+
+
+.blacksquare{
+  width: 100rem;
   height: 100rem;
   /* background-color: gray; */
 }
+
+
