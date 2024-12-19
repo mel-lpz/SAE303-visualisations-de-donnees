@@ -44,9 +44,9 @@ section {
 }
 
 body {
+  overflow-x: hidden;
   background-color: #f3e5e5;
   line-height: 1;
-  overflow-x: hidden;
   /* overflow-y: hidden; */
 }
 
@@ -351,18 +351,29 @@ gap: 2rem;
 justify-content: center;
 align-items: center;
   flex-direction: column;
-padding-top:3rem;
-padding-bottom: 3rem;
 
-border: 3px solid #000;
-border-radius: 5.65rem;
+
+
 
 }
+
+/* 
+#CarteDeFrance{
+  scale: 2;
+} */
 .chart__top{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+margin-right: 2rem;
+  gap: 2rem;
+}
+.chart__top2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 margin-right: 2rem;
   gap: 2rem;
 }
@@ -415,39 +426,39 @@ margin-right: 2rem;
 
 .section-cinema1{
   display: flex;
-  align-self: center;
     padding: 30rem;
+  align-self: center;
 }
 
 .cinema-separator{
-  width: 30rem;
   position: absolute;
   top: 0%;
+  width: 30rem;
   margin-left: -40rem;
 }
 
 .cinema-camera{
-  width: 20rem;
   position: absolute;
   bottom: 0%;
+  width: 20rem;
   margin-left: 30rem;
 }
 
 .camera-roll{
-  width: 20rem;
   position: absolute;
   top: 5%;
+  width: 20rem;
   margin-left: 22rem;
 }
 
 .cinema-h2{
     width: 25rem;
-    text-align: center;
     font-family: "Bebas Neue";
     font-size: 5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 .cinema-intro__h2-1{
@@ -470,26 +481,26 @@ margin-right: 2rem;
 
 .cinema-intro{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     width: 40rem;
-    gap: 6rem;
+    padding-top: 5rem;
     padding-right: 5rem;
     padding-left: 5rem;
-    padding-top: 5rem;
+    gap: 6rem;
 }
 
 .cinema-intro__firstline{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
     font-family: "ABeeZee";
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: right;
+    gap: 2rem;
     img {
         width: 7rem;
     }
@@ -499,20 +510,20 @@ margin-right: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
     font-family: "ABeeZee";
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: left;
+    gap: 2rem;
 }
 
 .itineraire-icon2{
   position: absolute;
   bottom: -17%;
-  margin-left: 55rem;
   width: 18rem;
+  margin-left: 55rem;
 }
 
 .cinema-intro__secondline--percentage{
@@ -538,8 +549,8 @@ margin-right: 2rem;
 .card__caption-container{
   width: 20rem;
   .card__caption1{
-    font-size: 2rem;
     margin-bottom: .5rem;
+    font-size: 2rem;
   }
   .card__caption2{
     list-style: inside;
@@ -548,7 +559,6 @@ margin-right: 2rem;
 
 .first-element{
   display: flex;
-  gap: 2rem;
   padding-top: 2rem;
   font-family: "ABeeZee";
   font-size: 1.25rem;
@@ -556,20 +566,21 @@ margin-right: 2rem;
   font-weight: 400;
   line-height: normal;
   text-align: left;
+  gap: 2rem;
 }
 
 .card-top{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: fit-content;
     height: 25rem;
     margin-top: -5rem;
-    padding-left: 4rem;
     padding-right: 4rem;
-    border-radius: 0px 0px 109.231px 109.231px;
+    padding-left: 4rem;
     background: linear-gradient(232deg, #E7D0D0 6.58%, #A29DFA 97.94%);
+    border-radius: 0px 0px 109.231px 109.231px;
     .card-top__img{
       width: 10rem;
       margin-bottom: -12rem;
@@ -596,17 +607,17 @@ margin-right: 2rem;
 
 .second-element{
   display: flex;
-  gap: 2rem;
   font-family: "ABeeZee";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-align: left;
+  gap: 2rem;
   .card__caption-container{
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
+    flex-direction: column;
     margin-bottom: 4rem;
     
   }
@@ -614,16 +625,16 @@ margin-right: 2rem;
 
 .card-bottom{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: fit-content;
   height: 22rem;
   margin-top: -5rem;
-  padding-left: 4rem;
   padding-right: 4rem;
-  border-radius: 109.231px 109.231px 0px 0px ;
+  padding-left: 4rem;
   background: linear-gradient(232deg, #E7D0D0 6.58%, #A29DFA 97.94%);
+  border-radius: 109.231px 109.231px 0px 0px ;
 
 }
 
@@ -635,7 +646,6 @@ margin-right: 2rem;
 
 .third-element{
   display: flex;
-  gap: 2rem;
   padding-top: 2rem;
   font-family: "ABeeZee";
   font-size: 1.25rem;
@@ -643,6 +653,7 @@ margin-right: 2rem;
   font-weight: 400;
   line-height: normal;
   text-align: left;
+  gap: 2rem;
   .card-top__img{
     width: 12rem;
   }
@@ -650,24 +661,24 @@ margin-right: 2rem;
 
 .cinema-percentages2{
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
+  flex-direction: column;
 }
 
 
 /* Section livres */
 
 .bookmark{
-  width: 15rem;
   position: absolute;
   top: 0%;
+  width: 15rem;
   margin-left: -10rem;
 }
 
 .bookshelf{
-  width: 20rem;
   position: absolute;
   bottom: 0%;
+  width: 20rem;
   margin-left: 30rem;
 }
 
@@ -679,24 +690,24 @@ margin-right: 2rem;
 
 .books-percentages__column1{
   display: flex;
-  height: 100%;
   align-items: center;
+  height: 100%;
 }
 
 .books-percentages__column2,
 .books-percentages__column3{
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-direction: column;
   height: 100%;
 }
 
 .books-percentages__subcolumn1{
   display: flex;
-  flex-direction: column;
-  width: 30rem;
   justify-content: flex-start;
   align-items: flex-end;
+  flex-direction: column;
+  width: 30rem;
   height: 100%;
   padding-top: 5rem;
   padding-right: 2rem;
@@ -704,10 +715,10 @@ margin-right: 2rem;
 
 .books-percentages__subcolumn3{
   display: flex;
-  flex-direction: column;
-  width: 30rem;
   justify-content: flex-end;
   align-items: flex-start;
+  flex-direction: column;
+  width: 30rem;
   height: 100%;
   padding-bottom: 15rem;
   padding-left: 2rem;
@@ -766,7 +777,6 @@ margin-right: 2rem;
 .books-percentage__bottom-element{
   display: flex;
   align-items: center;
-  gap: 2rem;
   padding-top: 2rem;
   font-family: "ABeeZee";
   font-size: 1.25rem;
@@ -774,12 +784,12 @@ margin-right: 2rem;
   font-weight: 400;
   line-height: normal;
   text-align: left;
+  gap: 2rem;
 }
 
 .books-percentage__top-element{
   display: flex;
   align-items: center;
-  gap: 2rem;
   padding-top: 2rem;
   font-family: "ABeeZee";
   font-size: 1.25rem;
@@ -787,6 +797,7 @@ margin-right: 2rem;
   font-weight: 400;
   line-height: normal;
   text-align: left;
+  gap: 2rem;
   .card__caption1{
     margin: 0;
     padding: 0;
@@ -851,9 +862,9 @@ margin-right: 2rem;
 
 .pie2-caption1,
 .pie1-caption1{
-  max-width: 25rem;
-  font-size: 2rem;
   padding-left: 2rem;
+  font-size: 2rem;
+  max-width: 25rem;
 }
 
 .pie1-caption2,
@@ -882,13 +893,13 @@ margin-right: 2rem;
 
 
 .pie1-caption2{
-  margin-left: -37rem;
   margin-top: 4rem;
+  margin-left: -37rem;
 }
 
 .pie2-caption2{
-  margin-left: -35rem;
   margin-bottom: 3rem;
+  margin-left: -35rem;
 }
 
 
@@ -912,8 +923,8 @@ margin-right: 2rem;
 
 
 .blacksquare{
-  width: 100rem;
-  height: 100rem;
+  width: 10rem;
+  height: 10rem;
   /* background-color: gray; */
 }
 

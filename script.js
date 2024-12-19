@@ -10,12 +10,36 @@ document.addEventListener("DOMContentLoaded", function () {
     .to(word, 0.1, { opacity: 1 }, "-=0.1")
     .to(firstBg, 0.2, { scaleX: 0 })
     .to(secBg, 0.2, { scaleX: 0 });
-
-  document.querySelector(".restart").addEventListener("click", function () {
-    tl.restart();
-  });
 });
 
+// Les différents compteurs de la page
+gsap.to("#counter1", {
+  duration: 1,
+  innerText: 3217458,
+  snap: { innerText: 1 },
+  ease: "power1.inOut",
+});
+gsap.to("#counter2", {
+  duration: 1,
+  innerText: 38,
+  snap: { innerText: 1 },
+  ease: "power1.inOut",
+  delay: 0.5,
+});
+gsap.to("#counter3", {
+  duration: 1,
+  innerText: 38,
+  snap: { innerText: 1 },
+  ease: "power1.inOut",
+  delay: 1,
+});
+gsap.to("#counter4", {
+  duration: 1,
+  innerText: 24,
+  snap: { innerText: 1 },
+  ease: "power1.inOut",
+  delay: 1.5,
+});
 const fullContainer = document.querySelector(".full__container");
 const sections = document.querySelectorAll(".full__container > section");
 let totalWidth = 0;
@@ -40,3 +64,14 @@ gsap.to(".full__container", {
     pin: true,
   },
 });
+gsap.fromTo(
+  "#CarteDeFrance path",
+  { strokeDasharray: 1000, strokeDashoffset: 1000 },
+  {
+    strokeDashoffset: 10,
+    duration: 2,
+    ease: "power2.inOut",
+    repeat: -1,
+    yoyo: true,
+  }
+);
