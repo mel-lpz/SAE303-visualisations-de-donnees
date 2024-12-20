@@ -1,0 +1,53 @@
+ /* <div class="people-percentage-container1">
+          <div class="svg-people1">
+              
+          </div>
+         <div class="people-percentage-content1">
+
+          <h2 class="people-percentage-number">44%</h2>
+          <p class="people-percentage-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui maiores quisquam beatae tempore, minus iure assumenda praesentium sunt earum optio obcaecati ratione nam sequi odio rem veniam dolore consequuntur mollitia!
+          </p>
+
+         </div> 
+         
+        </div> */
+
+
+.people-percentage-container1,
+.people-percentage-container2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.people-percentage-number,
+.people-percentage-inbetween{
+    font-family: "Bebas Neue";
+    font-size: 10rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.people-percentage-inbetween{
+    position: absolute;
+    top: 45%;
+    left: -8%;
+    font-size: 8rem;
+}
+
+.people-percentage-p{
+    font-family: "ABeeZee";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    width: 15rem;
+}

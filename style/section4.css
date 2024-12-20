@@ -1,0 +1,31 @@
+/* SECTION MAP 1 */
+
+/* Debut Section Separator Map */
+
+.panel-map1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  
+  .section__map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60rem;
+    border: solid 3px yellow;
+  }
+  .line__separator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .icon__separator{
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+  }
+  /* Fin Separator Map */

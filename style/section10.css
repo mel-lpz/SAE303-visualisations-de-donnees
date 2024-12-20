@@ -1,0 +1,108 @@
+/* Bookshelf evolution loisir */
+
+.panel--book3 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.bookshelf-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bookshelf-title {
+  font-family: "Bebas Neue";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.bookshelf-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.bookshelf-column-img {
+  position: relative;
+}
+
+.bookshelf-year2,
+.bookshelf-year1 {
+  position: absolute;
+  text-shadow: -3px 4px 0px #000;
+  color: #000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #bfbfbf;
+  margin: 0;
+}
+
+.bookshelf-year1 {
+  bottom: 31%;
+  left: 28%;
+  font-size: 3rem;
+}
+
+.bookshelf-year2 {
+  bottom: 26%;
+  right: 28%;
+}
+
+.pink-double-bookmark {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  width: 10rem;
+  transform: rotate(10deg);
+}
+
+.triple-book {
+  position: absolute;
+  top: 20%;
+  left: -5%;
+  width: 8rem;
+  transform: rotate(-10deg);
+  filter: invert(60%) sepia(100%) saturate(3683%) hue-rotate(211deg) brightness(103%) contrast(98%);
+}
+
+.bookshelf-percentage {
+  text-shadow: -3px 4px 0px #000;
+  color: #000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #bfbfbf;
+  margin: 0;
+}
+
+.book-h2 {
+  width: 25rem;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}

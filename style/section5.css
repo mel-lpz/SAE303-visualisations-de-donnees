@@ -1,0 +1,43 @@
+
+/* SECTION MAP 2 */
+
+.panel-map2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  
+  .chart__top-img{
+    width: 50rem;
+  }
+  
+  .title--map2{
+    margin-bottom: 5rem;
+  }
+
+  .chart__content{
+    display: flex;
+    gap: 3rem;
+  }
+
+  .map-purple-legend{
+    width: 14rem;
+  }
+
+  .map-separator{
+    position: absolute;
+    height: 100%;
+    left: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 100%;
+    }
+    .icon__separator{
+        width: 20rem;
+    }
+  }
+
+  

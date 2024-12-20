@@ -1,0 +1,41 @@
+/* CINEMA SECTION 1*/
+
+.cinema-separator {
+    width: 30rem;
+    position: absolute;
+    top: 0%;
+    margin-left: -105%;
+  }
+  
+  .cinema-camera {
+    width: 20rem;
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+  }
+  
+  .camera-roll {
+    width: 20rem;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+  }
+
+  .purple-cinema-ticket{
+    width: 10rem;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    transform: rotate(-20deg);
+  }
+  
+  .cinema-h2 {
+    width: 25rem;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }

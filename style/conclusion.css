@@ -1,0 +1,19 @@
+/* CONCLUSION */
+
+.conclusion-title{
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .conclusion{
+  width: 60%;
+    font-family: "ABeeZee";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }

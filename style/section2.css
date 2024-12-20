@@ -1,0 +1,142 @@
+/* intro section 2 */
+
+.section2_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-right: 11rem;
+    margin-bottom: 2rem;
+    margin-left: 11rem;
+  }
+  
+  .section2_pourcentage {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: -3px 4px 0px #000;
+    color: #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #bfbfbf;
+  }
+  
+  .section2_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 18.5rem;
+    height: 2rem;
+    margin-left: 1rem;
+  
+    color: #000;
+  
+    /* text 20 */
+    font-family: "ABeeZee", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+  }
+  
+  .section2_informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 0px;
+    gap: 0;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    font-family: "Bebas Neue";
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+    text-align: center;
+    flex-shrink: 0;
+    margin: 0;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .section2_header_info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: -3px 4px 0px #000;
+    color: #000;
+    font-family: "Bebas Neue";
+    font-size: 8.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #bfbfbf;
+  }
+  
+  .section2_header_text {
+    color: #000;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .section2_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+
+/* 
+  <div class="problematique-column">
+  <h2 class="problematique-title">
+    Mais alors on s’est posé une question
+  </h2>
+  <p class="problematique-paragraph">
+    Le Pass Culture contribue-t-il à réduire les disparités entre jeunes des milieux ruraux et urbains en matière d'accès aux activités culturelles ?
+  </p>
+</div> */
+
+
+.problematique-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14rem;
+}
+
+.problematique-title{
+    margin: 1rem;
+    font-size: 4rem;
+}
+
+.problematique-paragraph{
+    width: 30rem;
+    margin: 1rem;
+    font-size: 2.5rem;
+}

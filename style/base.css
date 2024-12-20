@@ -1,0 +1,74 @@
+/* Base */
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+  }
+  
+  .description,
+  .final {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .panel {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .panel--red {
+    background-color: red;
+  }
+  
+  .panel--blue {
+    background-color: blue;
+  }
+  
+  .panel--purple {
+    background-color: purple;
+  }
+  
+  .panel--green {
+    background-color: green;
+  }
+  
+  .panel--cinema1 {
+    position: relative;
+    background-color: white;
+  }
+  
+  .box {
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: white;
+    border-radius: 8px;
+    color: #222;
+    font-weight: 700;
+    margin-left: 20px;
+    will-change: transform;
+  }
+  .box.active {
+    background-color: orange;
+    border: 2px solid white;
+  }
+  
+  .boxb-1 {
+    background-color: red;
+  }

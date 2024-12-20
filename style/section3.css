@@ -1,0 +1,72 @@
+/* Section camembert */
+
+.panel--intro3-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.charts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90rem;
+    height: 64rem;
+    padding: 4.7rem 5.9rem;
+    border: solid 3px green;
+    gap: 2rem;
+    flex-shrink: 0;
+  }
+  
+  .chart__content{
+
+  }
+  
+  .shadow{
+    z-index: -1;
+  }
+  
+  #CarteDeFrance{
+    /* scale: 2; */
+    height: 30rem;
+  }
+  
+  .chart__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 2rem;
+
+  }
+  .chart__top2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2rem;
+    gap: 2rem;
+  }
+  .chart__bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 45rem;
+  }
+  
+  .chart__legende{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    font-family: "ABeeZee";
+    font-size: 1.3rem;
+    text-align: justify;
+    
+    gap: 1rem;
+  }
