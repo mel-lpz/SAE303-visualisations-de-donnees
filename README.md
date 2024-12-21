@@ -3,7 +3,7 @@
 V1.0.0
 
 [Githubpage](https://mel-lpz.github.io/SAE303-visualisations-de-donnees/)
-[Figma] (https://www.figma.com/design/V7Gyv5VWZdzQLkBaEqu7FU/sae?node-id=444-1511&t=KMNcz4iRElvyNhg6-1)
+[Figma](https://www.figma.com/design/V7Gyv5VWZdzQLkBaEqu7FU/sae?node-id=444-1511&t=KMNcz4iRElvyNhg6-1)
 
 Description : 
 
