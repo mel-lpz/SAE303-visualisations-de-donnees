@@ -72,3 +72,19 @@ body {
   .boxb-1 {
     background-color: red;
   }
+
+  h1,
+  h2{
+  font-family: "Bebas Neue", sans-serif;
+  }
+
+  p{
+    font-family: "ABeeZee", sans-serif;
+  }
+
+  .section-title{
+    font-size: 5rem;
+    margin: 0;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }

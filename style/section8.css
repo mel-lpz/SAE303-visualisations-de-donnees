@@ -1,35 +1,61 @@
-/* CINEMA SECTION 3 */
+/* CINEMA SECTION 2 */
 
-/* First element */
-
-.panel--cinema3{
-    gap: 19rem;
+.panel--cinema2 {
+    position: relative;
   }
   
-  .first-element-container {
+  .cinema-intro__h2-1 {
+    font-family: "Bebas Neue";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .cinema-intro__h2-2 {
+    font-family: "Bebas Neue";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .cinema-intro {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    align-items: center;
+    width: 40rem;
+    gap: 6rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
   }
   
-  .card__caption-container {
-    width: 20rem;
-    .card__caption1 {
-      font-size: 2rem;
-      margin: 0;
-      margin-bottom: 0.5rem;
-    }
-    .card__caption2 {
-      margin: 0;
-      padding: 0;
-      list-style: inside;
-    }
-  }
-  
-  .first-element {
+  .cinema-intro__firstline {
     display: flex;
-    /* gap: 2rem; */
-    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: "ABeeZee";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    img {
+      width: 7rem;
+    }
+  }
+  
+  .cinema-intro__secondline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     font-family: "ABeeZee";
     font-size: 1.25rem;
     font-style: normal;
@@ -38,26 +64,22 @@
     text-align: left;
   }
   
-  .card-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    height: 25rem;
-    margin-top: -5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border-radius: 0px 0px 109.231px 109.231px;
-    background: linear-gradient(232deg, #e7d0d0 6.58%, #a29dfa 97.94%);
-    .card-top__img {
-      width: 10rem;
-      margin-bottom: -12rem;
-    }
+  .itineraire-icon2 {
+    position: absolute;
+    bottom: -17%;
+    left: -10%;
+    width: 18rem;
+  }
+
+  .theatre-mask{
+    position: absolute;
+    width: 10rem;
+    left: 5%;
+    bottom: 35%;
+    transform: rotate(20deg);
   }
   
-  .card-top__percentage,
-  .card-bottom__percentage {
+  .cinema-intro__secondline--percentage {
     text-shadow: -3px 4px 0px #000;
     color: #000;
     font-family: "Bebas Neue", sans-serif;
@@ -72,78 +94,3 @@
     -webkit-text-stroke-color: #bfbfbf;
     margin: 0;
   }
-  
-  .card-top__percentage {
-    margin: 0;
-  }
-  
-  
-  /* Second element */
-  
-  .second-element-container {
-    display: flex;
-    flex-direction: column-reverse;
-    height: 100%;
-  }
-  
-  .second-element {
-    display: flex;
-    font-family: "ABeeZee";
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: left;
-    .card__caption-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      margin-bottom: 4rem;
-    }
-  }
-  
-  .card-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    height: 22rem;
-    margin-top: -5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border-radius: 109.231px 109.231px 0px 0px;
-    background: linear-gradient(232deg, #e7d0d0 6.58%, #a29dfa 97.94%);
-  }
-  
-  .card-bottom__img {
-    width: 9rem;
-    margin-top: -8rem;
-    padding-bottom: 3rem;
-  }
-  
-  /* Third element */
-  
-  .third-element{
-    display: flex;
-  }
-  
-  .third-element-container{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    padding-top: 2rem;
-    margin-right: 30rem;
-    font-family: "ABeeZee";
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: left;
-  }
-  
-  .livre-separator{
-    position: absolute;
-    left: -30%;
-  }
-  

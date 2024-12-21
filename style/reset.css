@@ -87,10 +87,3 @@ select {
 textarea:not([rows]) {
   min-height: 10em;
 }
-
-/* Base */
-
-body {
-  font-family: sans-serif;
-  background-color: #222;
-}

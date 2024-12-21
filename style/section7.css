@@ -1,96 +1,41 @@
-/* CINEMA SECTION 2 */
+/* CINEMA SECTION 1*/
 
-.panel--cinema2 {
-    position: relative;
-  }
-  
-  .cinema-intro__h2-1 {
-    font-family: "Bebas Neue";
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    margin: 0;
-  }
-  
-  .cinema-intro__h2-2 {
-    font-family: "Bebas Neue";
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    margin: 0;
-  }
-  
-  .cinema-intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40rem;
-    gap: 6rem;
-    padding-right: 5rem;
-    padding-left: 5rem;
-    padding-top: 5rem;
-  }
-  
-  .cinema-intro__firstline {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    font-family: "ABeeZee";
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: right;
-    img {
-      width: 7rem;
-    }
-  }
-  
-  .cinema-intro__secondline {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    font-family: "ABeeZee";
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: left;
-  }
-  
-  .itineraire-icon2 {
+.cinema-separator {
+    width: 30rem;
     position: absolute;
-    bottom: -17%;
-    left: -10%;
-    width: 18rem;
+    top: 0%;
+    margin-left: -105%;
+  }
+  
+  .cinema-camera {
+    width: 20rem;
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+  }
+  
+  .camera-roll {
+    width: 20rem;
+    position: absolute;
+    top: 5%;
+    left: 20%;
   }
 
-  .theatre-mask{
-    position: absolute;
+  .purple-cinema-ticket{
     width: 10rem;
-    left: 5%;
-    bottom: 35%;
-    transform: rotate(20deg);
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    transform: rotate(-20deg);
   }
   
-  .cinema-intro__secondline--percentage {
-    text-shadow: -3px 4px 0px #000;
-    color: #000;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 10rem;
+  .cinema-h2 {
+    width: 25rem;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #bfbfbf;
     margin: 0;
   }

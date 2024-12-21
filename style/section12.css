@@ -1,0 +1,47 @@
+
+.people-percentage-container1,
+.people-percentage-container2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.people-percentage-number,
+.people-percentage-inbetween{
+    font-family: "Bebas Neue";
+    font-size: 10rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.people-percentage-inbetween{
+    position: absolute;
+    top: 45%;
+    left: -8%;
+    font-size: 8rem;
+}
+
+.people-percentage-p{
+    font-family: "ABeeZee";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    width: 15rem;
+}
+
+
+.blue-books-svg{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 8rem;
+    transform: rotate(10deg);
+}

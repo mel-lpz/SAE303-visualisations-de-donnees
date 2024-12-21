@@ -1,0 +1,45 @@
+
+.panel-question-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-question-title{
+    font-family: "Bebas Neue";
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.final-question-arrow{
+    width: 10rem;
+    transform: rotate(108deg);
+}
+
+.footer-first-row,
+.footer-second-row{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+    font-family: "Bebas Neue";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+    a{
+        text-decoration: none;
+    }
+}
+
+.footer{
+    margin-top: 30rem;
+    justify-content: flex-start;
+}

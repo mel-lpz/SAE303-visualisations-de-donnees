@@ -1,140 +1,175 @@
-/* CINEMA SECTION 4 */
+/* CINEMA SECTION 3 */
 
-.books-percentages__column1{
-    display: flex;
-    height: 100%;
-    align-items: center;
+/* First element */
+
+.panel--cinema3{
+    gap: 15rem;
+    z-index: 2;
+
   }
-  
-  .books-percentages__column2,
-  .books-percentages__column3{
+
+
+  .first-element-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 100%;
   }
   
-  .books-percentages__subcolumn1{
+  .card__caption-container,
+  .card__caption-container2,
+  .card__caption-container3 {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 4rem;
     width: 30rem;
-    justify-content: center;
-    align-items: flex-end;
-    height: 100%;
-    padding-right: 1rem;
-  }
-  
-  .books-percentages__subcolumn2{
-    position: relative;
-    p{
-      position: absolute;
-      top: 40%;
-      left: 35%;
-      text-shadow: -3px 4px 0px #000;
-      color: #000;
-      font-family: "Bebas Neue", sans-serif;
-      font-size: 5rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      text-align: center;
-      text-transform: uppercase;
-      letter-spacing: 0.1rem;
-      -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: #bfbfbf;
+    .card__caption1 {
+      font-size: 2rem;
+      margin: 0;
+      margin-bottom: 0.5rem;
+    }
+    .card__caption2 {
+      margin: 0;
+      padding: 0;
+      list-style: inside;
     }
   }
   
-  .books-percentages__subcolumn3{
+  .first-element {
     display: flex;
-    flex-direction: column;
-    /* transform: rotate(180deg); */
-    width: 30rem;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
-    padding-left: 2rem;
-  }
-  
-  .books-percentages__subcolumn1--percentage1{
-    text-shadow: -3px 4px 0px #000;
-    color: #000;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 10rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #bfbfbf;
-    margin: 0;
-  }
-  
-  .books-percentages__subcolumn1--percentage2{
+    /* gap: 2rem; */
+    padding-top: 2rem;
     font-family: "ABeeZee";
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: right;
-    letter-spacing: 0.1rem;
-    margin: 0;
-    margin-top: -2rem;
-  }
-  
-  .books-percentages__subcolumn3--percentage1{
-    text-shadow: -3px 4px 0px #000;
-    color: #000;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 10rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #bfbfbf;
-    margin: 0;
-  }
-  
-  .books-percentages__subcolumn3--percentage2{
-    font-family: "ABeeZee";
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.1rem;
-    margin: 0;
-    margin-top: -2rem;
   }
   
-  .books-percentages__subcolumn2--paragraph{
-    margin: 0;
-  }
-  
-  .cinema-title-container{
-    position: relative;
+  .card-top,
+  .card-top2 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 25rem;
+    margin-top: -5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 0px 0px 109.231px 109.231px;
+    background: linear-gradient(232deg, #e7d0d0 6.58%, #a29dfa 97.94%);
+    .card-top__img {
+      width: 10rem;
+      margin-bottom: -12rem;
+    }
+    .card-top__img2{
+      width: 14rem;
+      margin-bottom: -12rem;
+    }
+  }
+  
+  .card-top__percentage,
+  .card-bottom__percentage {
+    text-shadow: -3px 4px 0px #000;
+    color: #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 10rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #bfbfbf;
+    margin: 0;
+  }
+  
+  .card-top__percentage {
+    margin: 0;
+  }
+  
+  
+  /* Second element */
+  
+  .second-element-container {
+    display: flex;
+    flex-direction: column-reverse;
     height: 100%;
-    width: 100%;
   }
   
-  .bookmark{
-    width: 15rem;
+  .second-element {
+    display: flex;
+    font-family: "ABeeZee";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+  }
+  
+  .card-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 22rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 109.231px 109.231px 0px 0px;
+    background: linear-gradient(232deg, #e7d0d0 6.58%, #a29dfa 97.94%);
+  }
+  
+  .card-bottom__img {
+    width: 10rem;
+    margin-top: -8rem;
+    padding-bottom: 3rem;
+  }
+  
+  /* Third element */
+  
+  .third-element{
+    display: flex;
+  }
+  
+  .third-element-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 2rem;
+    margin-right: 30rem;
+    font-family: "ABeeZee";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+  }
+  
+  .livre-separator{
     position: absolute;
-    top: 0%;
+    left: -30%;
+  }
+  
+
+  .popcorn-wave1{
+    opacity: 0;
+    position: absolute;
+    bottom: 10%;
     left: 10%;
+    width: 10rem;
+    width: 6rem;
+    filter: invert(60%) sepia(100%) saturate(3683%) hue-rotate(211deg) brightness(103%) contrast(98%);
   }
-  
-  .bookshelf{
-    width: 20rem;
+
+
+  .popcorn-wave2{
     position: absolute;
-    bottom: 0%;
-    right: 10%;
+    bottom: 10%;
+    left: 10%;
+    width: 6rem;
+    filter: invert(60%) sepia(100%) saturate(3683%) hue-rotate(211deg) brightness(103%) contrast(98%);
   }

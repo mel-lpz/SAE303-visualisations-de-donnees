@@ -1,6 +1,6 @@
 /* Section camembert */
 
-.panel--intro3-container{
+.section3__container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -20,9 +20,6 @@
     flex-shrink: 0;
   }
   
-  .chart__content{
-
-  }
   
   .shadow{
     z-index: -1;
@@ -32,6 +29,10 @@
     /* scale: 2; */
     height: 30rem;
   }
+
+  /* .section3__header-title{
+    margin-bottom: 5rem;
+  } */
   
   .chart__top{
     display: flex;

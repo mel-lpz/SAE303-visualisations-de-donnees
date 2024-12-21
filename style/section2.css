@@ -1,6 +1,6 @@
 /* intro section 2 */
 
-.section2_header {
+.section2__header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
     margin-left: 11rem;
   }
   
-  .section2_pourcentage {
+  .section2__pourcentage {
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-shadow: -3px 4px 0px #000;
@@ -28,7 +28,7 @@
     -webkit-text-stroke-color: #bfbfbf;
   }
   
-  .section2_text {
+  .section2__text {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -47,7 +47,7 @@
     flex-shrink: 0;
   }
   
-  .section2_informations {
+  .section2__informations {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@
     gap: 0;
   }
   
-  .title {
+  .section2__header-title {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -74,7 +74,7 @@
     margin-bottom: 2rem;
   }
   
-  .section2_header_info {
+  .section2__header-info {
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-shadow: -3px 4px 0px #000;
@@ -92,7 +92,7 @@
     -webkit-text-stroke-color: #bfbfbf;
   }
   
-  .section2_header_text {
+  .section2__header-text {
     color: #000;
     font-family: "ABeeZee", sans-serif;
     font-size: 1.25rem;
@@ -111,32 +111,24 @@
   }
 
 
-/* 
-  <div class="problematique-column">
-  <h2 class="problematique-title">
-    Mais alors on s’est posé une question
-  </h2>
-  <p class="problematique-paragraph">
-    Le Pass Culture contribue-t-il à réduire les disparités entre jeunes des milieux ruraux et urbains en matière d'accès aux activités culturelles ?
-  </p>
-</div> */
-
-
-.problematique-column{
+.problematique__column{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 14rem;
+    text-align: center;
 }
 
-.problematique-title{
+.problematique__title{
     margin: 1rem;
     font-size: 4rem;
 }
 
-.problematique-paragraph{
+.problematique__paragraph{
     width: 30rem;
     margin: 1rem;
     font-size: 2.5rem;
+    font-family: "Bebas Neue", sans-serif;
+
 }

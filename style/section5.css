@@ -1,7 +1,7 @@
 
 /* SECTION MAP 2 */
 
-.panel-map2-container{
+.section5__container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -40,4 +40,18 @@
     }
   }
 
-  
+  .mapmonde-svg{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    transform: rotate(10deg);
+    width: 8rem;
+  }
+
+  .map-pin-svg{
+    position: absolute;
+    bottom: 30%;
+    left: -10%;
+    transform: rotate(-10deg);
+    width: 6rem;
+  }

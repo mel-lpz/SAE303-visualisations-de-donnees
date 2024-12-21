@@ -1,103 +1,9 @@
-/* Reset Css  - https://piccalil.li/blog/a-more-modern-css-reset/*/
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
-
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Prevent font size inflation */
-html {
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-}
-
-/* Remove default margin in favour of better control in authored CSS */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin-block-end: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  line-height: 1.5;
-}
-
-/* Set shorter line heights on headings and interactive elements */
-h1,
-h2,
-h3,
-h4,
-button,
-input,
-label {
-  line-height: 1.1;
-}
-
-/* Balance text wrapping on headings */
-h1,
-h2,
-h3,
-h4 {
-  text-wrap: balance;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-  color: currentColor;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font-family: inherit;
-  font-size: inherit;
-}
-
-/* Make sure textareas without a rows attribute are not tiny */
-textarea:not([rows]) {
-  min-height: 10em;
-}
-
-
-
-/* INTRO SECTION 1 */
-
-
-.panel--intro{
+.panel--intro {
   display: flex;
   flex-direction: column;
 }
-.mainTitle__section {
+
+.panel__main-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,42 +13,22 @@ textarea:not([rows]) {
   color: #000;
   font-family: "Bebas Neue";
   font-size: 4.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-align: left;
   text-align: center;
   text-transform: uppercase;
   gap: 0;
 }
-.h2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 18.1875rem;
-  height: 2.5625rem;
-  color: #000;
-  font-family: "Bebas Neue";
-  font-size: 3.5625rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-align: center;
-  text-transform: uppercase;
-}
-.text__first,
-.text__second {
+
+.panel__text {
   display: flex;
   justify-content: left;
   position: relative;
 }
 
-.text__word {
+.panel__word {
   opacity: 0;
 }
 
-.text__first-bg,
-.text__second-bg {
+.panel__text-bg {
   display: block;
   position: absolute;
   top: 0;
@@ -154,62 +40,34 @@ textarea:not([rows]) {
   transform: scaleX(0);
 }
 
-.text__first-bg {
+.panel__text-bg--first {
   background-color: #ce0058;
 }
 
-.text__second-bg {
+.panel__text-bg--second {
   background-color: #ce0058;
 }
 
-.main__title {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 18.1875rem;
-  height: 4.625rem;
-  color: #000;
-  font-family: "Bebas Neue";
-  font-size: 4.84375rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-align: center;
-  text-transform: uppercase;
-  flex-shrink: 0;
-}
-
-.main__center {
+.panel__center {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50;
-  padding: 6.04444rem 5.45188rem;
+  padding: 6rem 5.5rem;
   gap: 1.25rem;
-  align-self: stretch;
 }
 
-.h3 {
+.panel__subtitle {
   color: #000;
   font-family: "Bebas Neue";
   font-size: 1.875rem;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
-.main__text {
+.panel__description {
   width: 30rem;
   color: #000;
   font-family: "ABeeZee";
   font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-align: justify;
 }
-
-
-/* FIN INTRO SECTION 1 */
-
